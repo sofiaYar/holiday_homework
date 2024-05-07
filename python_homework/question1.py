@@ -1,2 +1,2 @@
-def num_len(input_num: str) -> int:
-    return len(input_num)
+def num_len(input_number: str) -> int:
+    return len(input_number)
