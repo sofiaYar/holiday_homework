@@ -4,7 +4,7 @@ def is_sorted_polyndrom(input_word: str) -> bool:
     first_word_part = input_word[0: word_length_in_half]
     second_word_part = input_word[word_length_in_half + 1: word_length]
     if first_word_part != second_word_part[::-1]:
-        print("the input word is not polyndrom")
+        # the input word is not polyndrom
         return False
     return is_sorted(first_word_part)
 
