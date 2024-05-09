@@ -1,4 +1,4 @@
-def pythagorean_triplet_by_sum(input_sum: int) -> bool:
+def pythagorean_triplet_by_sum(input_sum) -> bool:
     c = input_sum - 3
     b = input_sum - c - 1
     a = 1
