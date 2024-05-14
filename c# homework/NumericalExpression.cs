@@ -8,8 +8,7 @@ namespace ConsoleApp1
 {
     public class NumericalExpression
     {
-        public long InputNumber {  get; set; }
-        //public string expression;
+        public long inputNumber;
         private string[]  numbersFromOneToTwenty = 
             {"","One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
             "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen", "Twenty"};
@@ -20,20 +19,17 @@ namespace ConsoleApp1
 
         public NumericalExpression(long inputNumber)
         {
-            InputNumber = inputNumber;
-            //expression = /*ConvertToExpression(InputNumber);*/
-            
-            
+            this.inputNumber = inputNumber;
         }
 
         public string ToString()
         {
-            return ConvertToExpression(InputNumber);
+            return ConvertToExpression(inputNumber);
         }
 
         public long GetValue()
         {
-            return InputNumber;
+            return inputNumber;
         }
 
         public long SumLetters(long number)
@@ -60,7 +56,7 @@ namespace ConsoleApp1
 
         private string ConvertToExpression(long number)
         {
-            if (InputNumber == 0)
+            if (inputNumber == 0)
             {
                 return "zero";
             }
@@ -84,8 +80,8 @@ namespace ConsoleApp1
 
                 string answer = "";
 
-                int hundreds = num / 100; // 3
-                int left = num % 100;// 45
+                int hundreds = num / 100; 
+                int left = num % 100;
 
                 if (hundreds > 0)
                 {
