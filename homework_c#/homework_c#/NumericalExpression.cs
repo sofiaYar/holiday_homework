@@ -4,18 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace homework_c_
 {
     public class NumericalExpression
     {
         public long inputNumber;
-        private string[]  numbersFromOneToTwenty = 
-            {"","One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
-            "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen", "Twenty"};
-        private string[] tens = 
-            { "", "Ten", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety" };
-        private string[] thousands = 
-            { "", "Thousand", "Million", "Billion" };
+        private string[] numbersFromOneToTwenty =
+ {
+            "", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
+            "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen", "Twenty"
+        };
+        private string[] tens =
+        {
+            "", "Ten", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"
+        };
+        private string[] thousands =
+        {
+            "", "Thousand", "Million", "Billion", "Trillion", "Quadrillion", "Quintillion", "Sextillion",
+            "Septillion", "Octillion", "Nonillion", "Decillion"
+        };
 
         public NumericalExpression(long inputNumber)
         {
@@ -60,7 +67,7 @@ namespace ConsoleApp1
             {
                 return "zero";
             }
-            
+
             int thousnd = 0;
             string answer = "";
             while (number > 0)
@@ -74,36 +81,36 @@ namespace ConsoleApp1
         }
 
         private string ConvertThreeDigitsToWords(int num)
+        {
+            if (num == 0)
+                return "";
+
+            string answer = "";
+
+            int hundreds = num / 100;
+            int left = num % 100;
+
+            if (hundreds > 0)
             {
-                if (num == 0)
-                    return "";
-
-                string answer = "";
-
-                int hundreds = num / 100; 
-                int left = num % 100;
-
-                if (hundreds > 0)
-                {
-                    answer += numbersFromOneToTwenty[hundreds] + " Hundred ";
-                }
-
-                if (left < 10)
-                {
-                    answer += numbersFromOneToTwenty[left];
-                }
-                else if (left < 20)
-                {
-                    answer += numbersFromOneToTwenty[left];
-                }
-                else
-                {
-                    answer += tens[left / 10] + " " + numbersFromOneToTwenty[left % 10];
-                }
-
-                return answer;
+                answer += numbersFromOneToTwenty[hundreds] + " Hundred ";
             }
-        
+
+            if (left < 10)
+            {
+                answer += numbersFromOneToTwenty[left];
+            }
+            else if (left < 20)
+            {
+                answer += numbersFromOneToTwenty[left];
+            }
+            else
+            {
+                answer += tens[left / 10] + " " + numbersFromOneToTwenty[left % 10];
+            }
+
+            return answer;
+        }
+
 
     }
 }

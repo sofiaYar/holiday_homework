@@ -1,6 +1,11 @@
-﻿namespace ConsoleApp1
-{
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
+namespace homework_c_
+{
     public class Node
     {
 

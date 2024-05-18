@@ -2,21 +2,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
-using System.Xml.Linq;
 
-namespace ConsoleApp1
+namespace homework_c_
 {
     public class LinkedList1 : IEnumerable
     {
-        public Node ListHead {  get; set; }
+        public Node ListHead { get; set; }
         private Node listTail;
         private Node maxNode;
         private Node minNode;
-        public LinkedList1() 
+        public LinkedList1()
         {
             ListHead = null;
             listTail = null;
@@ -24,9 +21,9 @@ namespace ConsoleApp1
             minNode = ListHead;
         }
 
-        public LinkedList1(int value ,Node next) 
+        public LinkedList1(int value, Node next)
         {
-            ListHead = new Node(value,next);
+            ListHead = new Node(value, next);
             listTail = ListHead;
             maxNode = ListHead;
             minNode = ListHead;
@@ -54,7 +51,7 @@ namespace ConsoleApp1
 
         public void Prepend(int value)
         {
-            if ( ListHead == null)
+            if (ListHead == null)
             {
                 ListHead = new Node(value);
             }
@@ -65,15 +62,15 @@ namespace ConsoleApp1
                 ListHead = postion;
                 UpdateMinMax(ListHead);
             }
-           
+
         }
 
-        public int Pop() 
+        public int Pop()
         {
             int value = listTail.Value;
             Node pos = ListHead;
-            while (pos.Next != listTail) 
-            { 
+            while (pos.Next != listTail)
+            {
                 pos = pos.Next;
             }
             pos.Next = null;
@@ -120,19 +117,19 @@ namespace ConsoleApp1
             LinkedList1 sortedList = new LinkedList1();
 
             Node pos = ListHead;
-            while (pos != null) 
+            while (pos != null)
             {
                 sortedList.Append(pos.Value);
                 pos = pos.Next;
             }
 
 
-            sortedList.SortInternal();
+            sortedList.SortLinkedList();
 
             return sortedList;
         }
 
-        private void SortInternal()
+        private void SortLinkedList()
         {
             bool swapped;
             do
@@ -153,7 +150,7 @@ namespace ConsoleApp1
             } while (swapped);
         }
 
-        
+
         private void UpdateMinMax(Node value)
         {
             if (value.Value > maxNode.Value)
@@ -169,11 +166,12 @@ namespace ConsoleApp1
         private void RecalculateMinMax(Node value)
         {
             if (value.Value == maxNode.Value)
-            {   maxNode.Value = int.MinValue;
+            {
+                maxNode.Value = int.MinValue;
                 Node position = ListHead;
                 while (position != null)
                 {
-                    if( maxNode.Value < position.Value)
+                    if (maxNode.Value < position.Value)
                     {
                         maxNode = position;
                     }
@@ -194,7 +192,7 @@ namespace ConsoleApp1
                 }
             }
         }
-        
+
         public Node GetMaxNode()
         {
             return maxNode;
