@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "2048\\Board.cs",
               "ToolTip": "C:\\Users\\sofia\\ddd\\part4\\2048\\2048\\Board.cs",
               "RelativeToolTip": "2048\\Board.cs",
-              "ViewState": "AQIAAEgAAAAAAEB9/LowwGEAAAAwAAAA",
+              "ViewState": "AQIAACoAAAAAAABU8w0HwIUAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T16:19:01.955Z",
               "IsPinned": true,
@@ -58,7 +58,7 @@
               "RelativeDocumentMoniker": "2048\\Game.cs",
               "ToolTip": "C:\\Users\\sofia\\ddd\\part4\\2048\\2048\\Game.cs",
               "RelativeToolTip": "2048\\Game.cs",
-              "ViewState": "AQIAAAgAAAAAAIwtwBEiwBcAAAAUAAAA",
+              "ViewState": "AQIAAAcAAAAAAGAM7l/wvxQAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T17:08:31.492Z",
               "EditorCaption": ""
@@ -98,8 +98,7 @@
               "RelativeToolTip": "2048\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T16:03:47.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T16:03:47.085Z"
             }
           ]
         }

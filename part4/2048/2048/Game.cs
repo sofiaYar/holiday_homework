@@ -10,7 +10,7 @@ namespace _2048
     {
         public Board GameBoard
         {
-            get; protected set;
+            get;
         }
         public int Points 
         {  
@@ -18,7 +18,7 @@ namespace _2048
         }
         public GameStatus Status 
         {  
-            get; protected set; 
+            get; private set; 
         }
 
         public Game()
@@ -26,6 +26,7 @@ namespace _2048
             GameBoard = new Board();
             Points = 0;
             Status = GameStatus.InProgress;
+
         }
 
         public void StartGame()
@@ -65,7 +66,7 @@ namespace _2048
 
         public void Move(Direction direction)
         {
-
+            bool successful = GameBoard.Move(direction);
         }
     }
 }
