@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = homework_c_
-build_property.ProjectDir = C:\Users\sofia\ddd\homework_c#\homework_c#\
+build_property.ProjectDir = C:\Users\sofia\git_homework\part2\homework_c#\homework_c#\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

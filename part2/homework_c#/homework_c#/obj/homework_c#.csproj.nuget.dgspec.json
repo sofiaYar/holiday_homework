@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sofia\\ddd\\homework_c#\\homework_c#\\homework_c#.csproj": {}
+    "C:\\Users\\sofia\\git_homework\\part2\\homework_c#\\homework_c#\\homework_c#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sofia\\ddd\\homework_c#\\homework_c#\\homework_c#.csproj": {
+    "C:\\Users\\sofia\\git_homework\\part2\\homework_c#\\homework_c#\\homework_c#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sofia\\ddd\\homework_c#\\homework_c#\\homework_c#.csproj",
+        "projectUniqueName": "C:\\Users\\sofia\\git_homework\\part2\\homework_c#\\homework_c#\\homework_c#.csproj",
         "projectName": "homework_c#",
-        "projectPath": "C:\\Users\\sofia\\ddd\\homework_c#\\homework_c#\\homework_c#.csproj",
+        "projectPath": "C:\\Users\\sofia\\git_homework\\part2\\homework_c#\\homework_c#\\homework_c#.csproj",
         "packagesPath": "C:\\Users\\sofia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sofia\\ddd\\homework_c#\\homework_c#\\obj\\",
+        "outputPath": "C:\\Users\\sofia\\git_homework\\part2\\homework_c#\\homework_c#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sofia\\AppData\\Roaming\\NuGet\\NuGet.Config",

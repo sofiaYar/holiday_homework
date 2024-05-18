@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sofia\\git_homework\\part4\\2048\\",
+  "WorkspaceRootPath": "C:\\Users\\sofia\\ddd\\part4\\2048\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B11C5BD0-881D-4181-BC3B-39F162F4298A}|2048\\2048.csproj|c:\\users\\sofia\\git_homework\\part4\\2048\\2048\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B11C5BD0-881D-4181-BC3B-39F162F4298A}|2048\\2048.csproj|c:\\users\\sofia\\ddd\\part4\\2048\\2048\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B11C5BD0-881D-4181-BC3B-39F162F4298A}|2048\\2048.csproj|solutionrelative:2048\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B11C5BD0-881D-4181-BC3B-39F162F4298A}|2048\\2048.csproj|c:\\users\\sofia\\git_homework\\part4\\2048\\2048\\gamestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B11C5BD0-881D-4181-BC3B-39F162F4298A}|2048\\2048.csproj|solutionrelative:2048\\gamestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B11C5BD0-881D-4181-BC3B-39F162F4298A}|2048\\2048.csproj|c:\\users\\sofia\\ddd\\part4\\2048\\2048\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11C5BD0-881D-4181-BC3B-39F162F4298A}|2048\\2048.csproj|solutionrelative:2048\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B11C5BD0-881D-4181-BC3B-39F162F4298A}|2048\\2048.csproj|c:\\users\\sofia\\git_homework\\part4\\2048\\2048\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B11C5BD0-881D-4181-BC3B-39F162F4298A}|2048\\2048.csproj|c:\\users\\sofia\\ddd\\part4\\2048\\2048\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B11C5BD0-881D-4181-BC3B-39F162F4298A}|2048\\2048.csproj|solutionrelative:2048\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B11C5BD0-881D-4181-BC3B-39F162F4298A}|2048\\2048.csproj|c:\\users\\sofia\\git_homework\\part4\\2048\\2048\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B11C5BD0-881D-4181-BC3B-39F162F4298A}|2048\\2048.csproj|solutionrelative:2048\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B11C5BD0-881D-4181-BC3B-39F162F4298A}|2048\\2048.csproj|c:\\users\\sofia\\ddd\\part4\\2048\\2048\\gamestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11C5BD0-881D-4181-BC3B-39F162F4298A}|2048\\2048.csproj|solutionrelative:2048\\gamestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B11C5BD0-881D-4181-BC3B-39F162F4298A}|2048\\2048.csproj|c:\\users\\sofia\\git_homework\\part4\\2048\\2048\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B11C5BD0-881D-4181-BC3B-39F162F4298A}|2048\\2048.csproj|solutionrelative:2048\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B11C5BD0-881D-4181-BC3B-39F162F4298A}|2048\\2048.csproj|c:\\users\\sofia\\ddd\\part4\\2048\\2048\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11C5BD0-881D-4181-BC3B-39F162F4298A}|2048\\2048.csproj|solutionrelative:2048\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,57 +30,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Board.cs",
-              "DocumentMoniker": "C:\\Users\\sofia\\git_homework\\part4\\2048\\2048\\Board.cs",
-              "RelativeDocumentMoniker": "2048\\Board.cs",
-              "ToolTip": "C:\\Users\\sofia\\git_homework\\part4\\2048\\2048\\Board.cs",
-              "RelativeToolTip": "2048\\Board.cs",
-              "ViewState": "AQIAAAoAAAAAAICUYO0ywBAAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T16:19:01.955Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\ddd\\part4\\2048\\2048\\Board.cs",
+              "RelativeDocumentMoniker": "2048\\Board.cs",
+              "ToolTip": "C:\\Users\\sofia\\ddd\\part4\\2048\\2048\\Board.cs",
+              "RelativeToolTip": "2048\\Board.cs",
+              "ViewState": "AQIAACcAAAAAAAAAJkkiwDMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:19:01.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GameStatus.cs",
-              "DocumentMoniker": "C:\\Users\\sofia\\git_homework\\part4\\2048\\2048\\GameStatus.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\ddd\\part4\\2048\\2048\\GameStatus.cs",
               "RelativeDocumentMoniker": "2048\\GameStatus.cs",
-              "ToolTip": "C:\\Users\\sofia\\git_homework\\part4\\2048\\2048\\GameStatus.cs",
+              "ToolTip": "C:\\Users\\sofia\\ddd\\part4\\2048\\2048\\GameStatus.cs",
               "RelativeToolTip": "2048\\GameStatus.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T16:11:27.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T16:11:27.768Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Status.cs",
-              "DocumentMoniker": "C:\\Users\\sofia\\git_homework\\part4\\2048\\2048\\Status.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\ddd\\part4\\2048\\2048\\Status.cs",
               "RelativeDocumentMoniker": "2048\\Status.cs",
-              "ToolTip": "C:\\Users\\sofia\\git_homework\\part4\\2048\\2048\\Status.cs",
+              "ToolTip": "C:\\Users\\sofia\\ddd\\part4\\2048\\2048\\Status.cs",
               "RelativeToolTip": "2048\\Status.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T16:11:05.22Z"
+              "WhenOpened": "2024-05-18T16:11:05.22Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Direction.cs",
-              "DocumentMoniker": "C:\\Users\\sofia\\git_homework\\part4\\2048\\2048\\Direction.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\ddd\\part4\\2048\\2048\\Direction.cs",
               "RelativeDocumentMoniker": "2048\\Direction.cs",
-              "ToolTip": "C:\\Users\\sofia\\git_homework\\part4\\2048\\2048\\Direction.cs",
+              "ToolTip": "C:\\Users\\sofia\\ddd\\part4\\2048\\2048\\Direction.cs",
               "RelativeToolTip": "2048\\Direction.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -88,15 +88,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sofia\\git_homework\\part4\\2048\\2048\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\ddd\\part4\\2048\\2048\\Program.cs",
               "RelativeDocumentMoniker": "2048\\Program.cs",
-              "ToolTip": "C:\\Users\\sofia\\git_homework\\part4\\2048\\2048\\Program.cs",
+              "ToolTip": "C:\\Users\\sofia\\ddd\\part4\\2048\\2048\\Program.cs",
               "RelativeToolTip": "2048\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T16:03:47.085Z"
+              "WhenOpened": "2024-05-18T16:03:47.085Z",
+              "EditorCaption": ""
             }
           ]
         }

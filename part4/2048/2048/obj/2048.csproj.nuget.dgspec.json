@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sofia\\git_homework\\part4\\2048\\2048\\2048.csproj": {}
+    "C:\\Users\\sofia\\ddd\\part4\\2048\\2048\\2048.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sofia\\git_homework\\part4\\2048\\2048\\2048.csproj": {
+    "C:\\Users\\sofia\\ddd\\part4\\2048\\2048\\2048.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sofia\\git_homework\\part4\\2048\\2048\\2048.csproj",
+        "projectUniqueName": "C:\\Users\\sofia\\ddd\\part4\\2048\\2048\\2048.csproj",
         "projectName": "2048",
-        "projectPath": "C:\\Users\\sofia\\git_homework\\part4\\2048\\2048\\2048.csproj",
+        "projectPath": "C:\\Users\\sofia\\ddd\\part4\\2048\\2048\\2048.csproj",
         "packagesPath": "C:\\Users\\sofia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sofia\\git_homework\\part4\\2048\\2048\\obj\\",
+        "outputPath": "C:\\Users\\sofia\\ddd\\part4\\2048\\2048\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sofia\\AppData\\Roaming\\NuGet\\NuGet.Config",

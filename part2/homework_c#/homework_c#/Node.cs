@@ -37,12 +37,6 @@ namespace homework_c_
 
 
 
-        public bool HasNext()
-        {
-            return (Next != null);
-        }
-
-
 
     }
 }

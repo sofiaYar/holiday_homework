@@ -43,5 +43,64 @@ namespace _2048
             }
         }
 
+        public void Display()
+        {
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < 4 ; j++)
+                {
+                    Console.Write($"{Data[i, j]} \t");
+                }
+                Console.WriteLine();
+            }
+        }
+
+        public bool Move(Direction direction)
+        {
+            bool successfulMove = false;
+
+            switch (direction)
+            {
+                case Direction.Up:
+                    successfulMove = Up();
+                    break;
+                case Direction.Down:
+                    successfulMove = Down();
+                    break;
+                case Direction.Left:
+                    successfulMove = Left();
+                    break;
+                case Direction.Right:
+                    successfulMove = Right();
+                    break;
+            }
+
+            if (successfulMove)
+            {
+                AddRandom();
+            }
+
+            return successfulMove;
+        }
+
+        private bool Right()
+        {
+            throw new NotImplementedException();
+        }
+
+        private bool Left()
+        {
+            throw new NotImplementedException();
+        }
+
+        private bool Down()
+        {
+            throw new NotImplementedException();
+        }
+
+        private bool Up()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
