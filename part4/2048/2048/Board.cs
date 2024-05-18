@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -85,12 +86,60 @@ namespace _2048
 
         private bool Right()
         {
-            throw new NotImplementedException();
+           bool moved  = false;
+           for (int i =0; i < 4; i++)
+            {
+                for (int j = 0; j < 3 ; j++)
+                {
+                    int number = Data[i, j];
+                    if (Data[i, j+1] == 0 && !moved)
+                    {
+                        Data[i,j+1] = number;
+                        Data[i, j] = 0;
+                    }
+                    int k = j; 
+                    while (k < 3 && Data[i, k + 1] != number  && !moved)
+                    {
+                        k++;
+                    }
+                    if (k < 4 && !moved)
+                    {
+                        Data[i, j] = 0;
+                        Data[i, k] = number + number;
+                        moved = true;   
+                    }
+                }
+            }
+            return moved;
         }
-
+      
         private bool Left()
         {
-            throw new NotImplementedException();
+            bool moved = false;
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 3; j > 1; j++)
+                {
+                    int number = Data[i, j];
+                    if (Data[i, j - 1] == 0 && !moved)
+                    {
+                        Data[i, j - 1] = number;
+                        Data[i, j] = 0;
+                    }
+                    int k = j;
+                    while (k > 3 && Data[i, k - 1] != number && !moved)
+                    {
+                        k++;
+                    }
+                    if (k > 0 && !moved)
+                    {
+                        Data[i, j] = 0;
+                        Data[i, k] = number + number;
+                        moved = true;
+                    }
+                }
+            }
+            return moved;
         }
 
         private bool Down()

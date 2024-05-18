@@ -21,7 +21,7 @@ namespace _2048
             get; protected set; 
         }
 
-        public Game(int boardSize = 4)
+        public Game()
         {
             GameBoard = new Board();
             Points = 0;
@@ -40,24 +40,32 @@ namespace _2048
                 Direction chosenDirection;
                 switch (keyInfo.Key)
                 {
-                    case ConsoleKey.W:
+                    case ConsoleKey.UpArrow:
                         chosenDirection = Direction.Up;
                         break;
-                    case ConsoleKey.S:
+                    case ConsoleKey.DownArrow:
                         chosenDirection = Direction.Down;
                         break;
-                    case ConsoleKey.A:
+                    case ConsoleKey.LeftArrow:
                         chosenDirection = Direction.Left;
                         break;
-                    case ConsoleKey.D:
+                    case ConsoleKey.RightArrow:
                         chosenDirection = Direction.Right;
                         break;
                     default:
-                        Console.WriteLine("\nInvalid input. Please use W, A, S, D to move or Q to quit.");
+                        Console.WriteLine("Invalid input");
                         continue;
                 }
+
+                Move(chosenDirection);
             }
+
+            Console.WriteLine("END");
         }
 
+        public void Move(Direction direction)
+        {
+
+        }
     }
 }
