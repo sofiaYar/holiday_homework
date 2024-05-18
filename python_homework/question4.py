@@ -73,7 +73,7 @@ def input_is_empty(input_number) -> str:
     return f"{input_number} "
 
 
-def check_input(input_number: str) -> float:
+def check_input(input_number:str) -> float:
     input_number = input_is_empty(input_number)
     while not input_number[0].isdigit() and not input_number[1].isdigit():
         input_number = input("*Enter only numbers")
